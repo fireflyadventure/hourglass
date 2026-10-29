@@ -1,6 +1,6 @@
 // Minimal service worker: enables PWA install + offline app shell.
 // Base-path agnostic — works whether served from "/" or "/hourglass/".
-const CACHE = 'hourglass-v125';
+const CACHE = 'hourglass-v126';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
